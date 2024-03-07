@@ -23,17 +23,10 @@
 
       .button-64 {
         align-items: center;
-        background-image: linear-gradient(
-          144deg,
-          #af40ff,
-          #5b42f3 50%,
-          #00ddeb
-        );
         border: 0;
         border-radius: 8px;
         box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
         box-sizing: border-box;
-        color: #ffffff;
         display: flex;
         font-family: Phantomsans, sans-serif;
         font-size: 20px;
@@ -54,15 +47,17 @@
         outline: 0;
       }
       .button-64 span {
-        background-color: rgb(5, 6, 45);
+        background-color: rgb(55, 55, 55);
         padding: 16px 24px;
         border-radius: 6px;
+        color: white;
         width: 100%;
         height: 100%;
         transition: 300ms;
       }
       .button-64:hover span {
         background: none;
+        color: black;
       }
       @media (min-width: 768px) {
         .button-64 {
@@ -72,8 +67,8 @@
       }
     </style>
   </head>
-  <body style="color: #f2f2f2; background-color: black">
-    <div style="background-color: #242424" class="jumbotron">
+  <body style="background-color: #86bc24">
+    <div style="background-color: #86bc24" class="jumbotron">
       <div class="container text-center">
         <h1>Welcome to CVM Dashboard</h1>
         <p>Gen AI Integration</p>
@@ -122,31 +117,33 @@
       </div>
 
       <div class="collapse" id="collapseSegment1">
-        <div
-          class="card card-body p-5"
-          style="background-color: #242424; text-align: left"
-        >
+        <div class="card card-body p-5" style="text-align: left">
           <h1>Segment 1 Info</h1>
 
           <div class="row my-5">
-            <div class="col-3">
-              <h2>1485.62</h2>
-              <p>Avg Usage of Voice</p>
+            <div class="col-2">
+              <h1>7401</h1>
+              <h3>BASE_COUNT</h3>
             </div>
 
-            <div class="col-3">
-              <h2>7401</h2>
-              <p>BASE_COUNT</p>
+            <div class="col-2">
+              <h1>1485.62</h1>
+              <h3>Avg Usage of Voice</h3>
             </div>
 
-            <div class="col-3">
-              <h2>6.157</h2>
-              <p>Data(GB)</p>
+            <div class="col-2">
+              <h1>6.157</h1>
+              <h3>Data(GB)</h3>
             </div>
 
-            <div class="col-3">
-              <h2>354586.90</h2>
-              <p>Revenue</p>
+            <div class="col-2">
+              <h1>47.91067</h1>
+              <h3>ARPU</h3>
+            </div>
+
+            <div class="col-4">
+              <h1>Low Voice & Low Data Users</h1>
+              <h3>Segment Intent</h3>
             </div>
           </div>
 
@@ -158,9 +155,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -182,9 +179,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -207,9 +204,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -231,31 +228,33 @@
       </div>
 
       <div class="collapse" id="collapseSegment2">
-        <div
-          class="card card-body p-5"
-          style="background-color: #242424; text-align: left"
-        >
+        <div class="card card-body p-5" style="text-align: left">
           <h1>Segment 2 Info</h1>
 
           <div class="row my-5">
-            <div class="col-3">
-              <h2>1725.62</h2>
-              <p>Avg Usage of Voice</p>
+            <div class="col-2">
+              <h1>2586</h1>
+              <h3>BASE_COUNT</h3>
             </div>
 
-            <div class="col-3">
-              <h2>2586</h2>
-              <p>BASE_COUNT</p>
+            <div class="col-2">
+              <h1>1725.62</h1>
+              <h3>Avg Usage of Voice</h3>
             </div>
 
-            <div class="col-3">
-              <h2>8.077</h2>
-              <p>Data(GB)</p>
+            <div class="col-2">
+              <h1>8.077</h1>
+              <h3>Data(GB)</h3>
             </div>
 
-            <div class="col-3">
-              <h2>140669.79</h2>
-              <p>Revenue</p>
+            <div class="col-2">
+              <h1>54.39667</h1>
+              <h3>ARPU</h3>
+            </div>
+
+            <div class="col-4">
+              <h1>Moderate Voice & Moderate Data users</h1>
+              <h3>Segment Intent</h3>
             </div>
           </div>
 
@@ -267,9 +266,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -291,9 +290,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -316,9 +315,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -340,31 +339,33 @@
       </div>
 
       <div class="collapse" id="collapseSegment3">
-        <div
-          class="card card-body p-5"
-          style="background-color: #242424; text-align: left"
-        >
+        <div class="card card-body p-5" style="text-align: left">
           <h1>Segment 3 Info</h1>
 
           <div class="row my-5">
-            <div class="col-3">
-              <h2>1736.19</h2>
-              <p>Avg Usage of Voice</p>
+            <div class="col-2">
+              <h1>1283</h1>
+              <h3>BASE_COUNT</h3>
             </div>
 
-            <div class="col-3">
-              <h2>1283</h2>
-              <p>BASE_COUNT</p>
+            <div class="col-2">
+              <h1>1736.19</h1>
+              <h3>Avg Usage of Voice</h3>
             </div>
 
-            <div class="col-3">
-              <h2>8.610</h2>
-              <p>Data(GB)</p>
+            <div class="col-2">
+              <h1>8.61</h1>
+              <h3>Data(GB)</h3>
             </div>
 
-            <div class="col-3">
-              <h2>69331.33</h2>
-              <p>Revenue</p>
+            <div class="col-2">
+              <h1>54.03845</h1>
+              <h3>ARPU</h3>
+            </div>
+
+            <div class="col-4">
+              <h1>Moderate Voice & Balanced Data Users</h1>
+              <h3>Segment Intent</h3>
             </div>
           </div>
 
@@ -376,9 +377,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -399,9 +400,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -423,9 +424,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -486,31 +487,33 @@
       </div>
 
       <div class="collapse" id="collapseSegment4">
-        <div
-          class="card card-body p-5"
-          style="background-color: #242424; text-align: left"
-        >
+        <div class="card card-body p-5" style="text-align: left">
           <h1>Segment 4 Info</h1>
 
           <div class="row my-5">
-            <div class="col-3">
-              <h2>1748.64</h2>
-              <p>Avg Usage of Voice</p>
+            <div class="col-2">
+              <h1>586</h1>
+              <h3>BASE_COUNT</h3>
             </div>
 
-            <div class="col-3">
-              <h2>586</h2>
-              <p>BASE_COUNT</p>
+            <div class="col-2">
+              <h1>1748.64</h1>
+              <h3>Avg Usage of Voice</h3>
             </div>
 
-            <div class="col-3">
-              <h2>9.115</h2>
-              <p>Data(GB)</p>
+            <div class="col-2">
+              <h1>9.115</h1>
+              <h3>Data(GB)</h3>
             </div>
 
-            <div class="col-3">
-              <h2>31463.87</h2>
-              <p>Revenue</p>
+            <div class="col-2">
+              <h1>53.69261</h1>
+              <h3>ARPU</h3>
+            </div>
+
+            <div class="col-4">
+              <h1>High Voice & High Data Users</h1>
+              <h3>Segment Intent</h3>
             </div>
           </div>
 
@@ -522,9 +525,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -545,9 +548,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -569,9 +572,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -592,31 +595,33 @@
       </div>
 
       <div class="collapse" id="collapseSegment5">
-        <div
-          class="card card-body p-5"
-          style="background-color: #242424; text-align: left"
-        >
+        <div class="card card-body p-5" style="text-align: left">
           <h1>Segment 5 Info</h1>
 
           <div class="row my-5">
-            <div class="col-3">
-              <h2>1642.55</h2>
-              <p>Avg Usage of Voice</p>
+            <div class="col-2">
+              <h1>241</h1>
+              <h3>BASE_COUNT</h3>
             </div>
 
-            <div class="col-3">
-              <h2>241</h2>
-              <p>BASE_COUNT</p>
+            <div class="col-2">
+              <h1>1642.55</h1>
+              <h3>Avg Usage of Voice</h3>
             </div>
 
-            <div class="col-3">
-              <h2>10.133</h2>
-              <p>Data(GB)</p>
+            <div class="col-2">
+              <h1>10.133</h1>
+              <h3>Data(GB)</h3>
             </div>
 
-            <div class="col-3">
-              <h2>10593.92</h2>
-              <p>Revenue</p>
+            <div class="col-2">
+              <h1>43.95817</h1>
+              <h3>ARPU</h3>
+            </div>
+
+            <div class="col-4">
+              <h1>Low Voice & High Data Users</h1>
+              <h3>Segment Intent</h3>
             </div>
           </div>
 
@@ -628,9 +633,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -652,9 +657,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -676,9 +681,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -699,31 +704,33 @@
       </div>
 
       <div class="collapse" id="collapseSegment6">
-        <div
-          class="card card-body p-5"
-          style="background-color: #242424; text-align: left"
-        >
+        <div class="card card-body p-5" style="text-align: left">
           <h1>Segment 6 Info</h1>
 
           <div class="row my-5">
-            <div class="col-3">
-              <h2>1919.32</h2>
-              <p>Avg Usage of Voice</p>
+            <div class="col-2">
+              <h1>9227</h1>
+              <h3>BASE_COUNT</h3>
             </div>
 
-            <div class="col-3">
-              <h2>9227</h2>
-              <p>BASE_COUNT</p>
+            <div class="col-2">
+              <h1>1919.32</h1>
+              <h3>Avg Usage of Voice</h3>
             </div>
 
-            <div class="col-3">
-              <h2>7.281</h2>
-              <p>Data(GB)</p>
+            <div class="col-2">
+              <h1>7.281</h1>
+              <h3>Data(GB)</h3>
             </div>
 
-            <div class="col-3">
-              <h2>499692.00</h2>
-              <p>Revenue</p>
+            <div class="col-2">
+              <h1>54.15541</h1>
+              <h3>ARPU</h3>
+            </div>
+
+            <div class="col-4">
+              <h1>High Voice & Low Data Users</h1>
+              <h3>Segment Intent</h3>
             </div>
           </div>
 
@@ -735,9 +742,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -759,9 +766,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
@@ -784,9 +791,9 @@
               width: 100%;
               background-image: linear-gradient(
                 144deg,
-                #af40ff,
-                #5b42f3 50%,
-                #00ddeb
+                #ffffff,
+                #e1e1e1 50%,
+                #b8b8b8
               );
               color: black;
               font-size: 14px;
